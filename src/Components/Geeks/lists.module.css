@@ -1,0 +1,80 @@
+.total_container{
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+.total_container h1{
+    margin-left: 40%;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.form_container{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 20px;
+    margin-left: 10%;
+}
+.lables{
+    font-weight: bolder;
+    padding: 5px;
+}
+.feilds{
+    width: 90%;
+    height: 40%;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding-bottom: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.button{
+    margin-top: 10%;
+    margin-left:32%;
+    padding: 10px 20px;
+    width: 30%;
+    height: auto;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 8px;
+    background-color: #c9fafd;
+    transition: transform 0.3s ease, background-color 0.3s ease, border-radius 0.3s ease;
+}
+.button:hover{
+    background-color: #06e8f8;
+    transform: scale(1);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form_container a{
+    padding-top: 6px;
+    text-decoration: none;
+    margin-left: 61%;
+    color: black;
+    font-size: 16px;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.form_container a:hover{
+    color: #0042ff ;
+}
+.signup{
+    padding-top: 30px;
+    margin-left: 24%;
+}
+.form_container p1 a1:hover{
+    color: #3fbcd8;
+    cursor: pointer;
+}
+.Google{
+    margin-left: 24%;
+    margin-top: 20px;
+}
